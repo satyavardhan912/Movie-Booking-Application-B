@@ -20,7 +20,7 @@ function ArtistDetails(props) {
         setStarColor([...newArr]);
     }
     return (
-        <>
+        <div>
             <Typography>
                 <strong>Rate this movie:</strong>
             </Typography>
@@ -43,7 +43,7 @@ function ArtistDetails(props) {
                     </ImageListItem>
                 ))}
             </ImageList>
-        </>
+        </div>
     )
 }
 

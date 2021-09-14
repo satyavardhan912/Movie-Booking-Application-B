@@ -16,7 +16,7 @@ function MovieTrailer(props) {
         event.target.pauseVideo();
     }
     return (
-        <>
+        <div>
             <Typography
                 variant="h6"
                 component="h2"
@@ -53,7 +53,7 @@ function MovieTrailer(props) {
                 onReady={ready}
                 id="sY1S34973zA"
             />
-        </>
+        </div>
     )
 }
 export default MovieTrailer;
